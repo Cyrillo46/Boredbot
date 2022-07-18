@@ -9,15 +9,12 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   font-family: Oxygen, sans-serif;
-}
-
-.container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main-display {
+#main-display {
   font-size: 3.5rem;
 }
 
@@ -42,6 +39,16 @@ button:focus {
   border-radius: 50%;
   border: none;
   background-color: rgb(155, 6, 165);
+  margin-top: 1em;
+  font-size: 5rem;
+}
+
+button:active {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(241, 229, 242);
   margin-top: 1em;
   font-size: 5rem;
 }
