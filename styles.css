@@ -23,12 +23,13 @@ h4 {
 }
 
 button {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   border: none;
   background-color: rgb(31, 2, 33);
-  margin-top: 8em;
+  margin-top: 1em;
+  font-size: 5rem;
 }
 
 button:hover,
