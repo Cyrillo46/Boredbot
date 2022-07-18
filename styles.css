@@ -1,0 +1,47 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to top, #02c0c4, #07e87c);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: Oxygen, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-display {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(31, 2, 33);
+  margin-top: 8em;
+}
+
+button:hover,
+button:active,
+button:focus {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(155, 6, 165);
+  margin-top: 1em;
+  font-size: 5rem;
+}
