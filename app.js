@@ -5,3 +5,5 @@ document.getElementById("idea-btn").addEventListener("click", function () {
       document.getElementById("main-display").textContent = data.activity;
     });
 });
+
+// hello
